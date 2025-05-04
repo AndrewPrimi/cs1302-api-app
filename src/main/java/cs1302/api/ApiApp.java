@@ -159,13 +159,15 @@ public class ApiApp extends Application {
         // setup stage
         stage.setTitle("ApiApp!");
         stage.setScene(scene);
-        stage.setWidth(1280);
-        stage.setHeight(720);
-        System.out.println("width" + stage.getWidth());
-        System.out.println("height" + stage.getHeight());
+        //stage.setWidth(1280);
+        //stage.setHeight(720);
+        System.out.println("width" + scene.getWidth());
+        System.out.println("height" + scene.getHeight());
         stage.setOnCloseRequest(event -> Platform.exit());
         stage.sizeToScene();
         stage.show();
+        System.out.println(scene.getWidth());
+        System.out.println(scene.getHeight());
 
     } // start
 

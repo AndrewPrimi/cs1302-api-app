@@ -8,14 +8,7 @@ this file in your GitHub repository website, then you will see that the
 Markdown is transformed into nice-looking HTML.
 
 ### Authored Assets
-
-* Example 1 Asset Name
-  - `resources/path/to/file`
-  - Your Name. Year.
-
-* Example 2 Asset Name
-  - `resources/path/to/file`
-  - Your Name. Year.
+No assets were authored by me, I used only one picture that is attributed down below.
 
 ### Assets Authored by Others
 
@@ -28,9 +21,3 @@ Markdown is transformed into nice-looking HTML.
   - wallpaperaccess.com 2020
   - https://wallpaperaccess.com/full/254383.jpg
   - Assumed proprietary: using under academic fair use
-
-* Example 2 Asset Name
-  - `resources/path/to/file`
-  - Author. Year.
-  - URL
-  - License
