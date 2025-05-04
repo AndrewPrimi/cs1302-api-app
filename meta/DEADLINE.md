@@ -20,7 +20,7 @@ The app connects two external APIs in a meaningful and automated way:
 
 ADSBdb API – When a user enters an aircraft callsign (e.g., “DLH123”), the app queries the ADSBdb API to retrieve key flight details, specifically the ICAO codes for the origin and destination airports of the flight.
 
-AirportsAPI – Once the ICAO codes are obtained, the app then uses them to query the AirportsAPI. This returns comprehensive airport information such as the airport name, city, country, latitude/longitude, and contact details.
+AirportsAPI – Once the ICAO codes are obtained, the app then uses them to query the AirportsAPI. This returns information such as the airports website url, the name, icao code etc. Some of the same information can be found with the ADSBD API however most is not.
 
 By integrating these two APIs, the app enables users to seamlessly go from a basic callsign to full airport context in just one search. It automates the process of linking flight tracking data with airport data, making it both practical and informative. One downside is that the airportApi has a very limited database of airports meaning that the user will mosty likely get erros messages because the api itself does not have information about the specfic aircarft's destination and origin airport. The api itself has a message on the website stating that most aiports are located in Germany.
 Here is a list of inputs to use in the program: CFG1TL DLH66 DLH400 OCN245 TUI678. These give results because they are German airlines.
