@@ -24,10 +24,10 @@ Markdown is transformed into nice-looking HTML.
 > instead of leaving the license information blank.
 
 * Example 1 Asset Name
-  - `resources/path/to/file`
-  - Author. Year.
-  - URL
-  - License
+  - resources/flightimage.jpg
+  - wallpaperaccess.com 2020
+  - https://wallpaperaccess.com/full/254383.jpg
+  - Assumed proprietary: using under academic fair use
 
 * Example 2 Asset Name
   - `resources/path/to/file`
